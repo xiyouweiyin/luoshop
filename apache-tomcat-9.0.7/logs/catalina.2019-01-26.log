@@ -1,0 +1,856 @@
+26-Jan-2019 10:25:08.605 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+26-Jan-2019 10:30:53.742 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.7
+26-Jan-2019 10:30:53.751 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 3 2018 19:53:05 UTC
+26-Jan-2019 10:30:53.752 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.7.0
+26-Jan-2019 10:30:53.752 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+26-Jan-2019 10:30:53.752 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.11.6
+26-Jan-2019 10:30:53.753 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+26-Jan-2019 10:30:53.754 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home
+26-Jan-2019 10:30:53.754 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           9.0.4+11
+26-Jan-2019 10:30:53.755 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+26-Jan-2019 10:30:53.756 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/macos/Downloads/apache-tomcat-9.0.7
+26-Jan-2019 10:30:53.756 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/macos/Downloads/apache-tomcat-9.0.7
+26-Jan-2019 10:30:53.757 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Jan-2019 10:30:53.758 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Jan-2019 10:30:53.758 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Jan-2019 10:30:53.758 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/macos/Downloads/apache-tomcat-9.0.7/conf/logging.properties
+26-Jan-2019 10:30:53.758 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Jan-2019 10:30:53.759 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Jan-2019 10:30:53.759 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Jan-2019 10:30:53.759 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+26-Jan-2019 10:30:53.760 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Jan-2019 10:30:53.760 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/macos/Downloads/apache-tomcat-9.0.7
+26-Jan-2019 10:30:53.760 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/macos/Downloads/apache-tomcat-9.0.7
+26-Jan-2019 10:30:53.761 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/macos/Downloads/apache-tomcat-9.0.7/temp
+26-Jan-2019 10:30:53.761 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/macos/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+26-Jan-2019 10:30:53.833 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+26-Jan-2019 10:30:53.874 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Jan-2019 10:30:53.885 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+26-Jan-2019 10:30:53.888 严重 [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:935)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:530)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:852)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:656)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:306)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:491)
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:433)
+	at java.base/sun.nio.ch.Net.bind(Net.java:425)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:225)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:227)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:202)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1043)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:540)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:932)
+	... 13 more
+
+26-Jan-2019 10:30:53.890 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1157 ms
+26-Jan-2019 10:30:54.008 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Jan-2019 10:30:54.008 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.7
+26-Jan-2019 10:30:54.024 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/docs]
+26-Jan-2019 10:30:54.743 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/docs] has finished in [713] ms
+26-Jan-2019 10:30:54.743 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/examples]
+26-Jan-2019 10:30:55.304 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/examples] has finished in [561] ms
+26-Jan-2019 10:30:55.305 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/host-manager]
+26-Jan-2019 10:30:55.363 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/host-manager] has finished in [58] ms
+26-Jan-2019 10:30:55.364 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/manager]
+26-Jan-2019 10:30:55.407 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/manager] has finished in [43] ms
+26-Jan-2019 10:30:55.407 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/ROOT]
+26-Jan-2019 10:30:56.806 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Jan-2019 10:30:57.167 信息 [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'appService': initialization started
+26-Jan-2019 10:30:57.239 信息 [main] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'appService-servlet': startup date [Sat Jan 26 10:30:57 CST 2019]; root of context hierarchy
+26-Jan-2019 10:30:57.333 信息 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/appServlet/servlet-context.xml]
+26-Jan-2019 10:30:58.353 信息 [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/]}" onto public java.lang.String spring.controller.HomeController.home(org.springframework.ui.Model)
+26-Jan-2019 10:30:58.481 信息 [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'appService-servlet': startup date [Sat Jan 26 10:30:57 CST 2019]; root of context hierarchy
+26-Jan-2019 10:30:58.571 信息 [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'appService-servlet': startup date [Sat Jan 26 10:30:57 CST 2019]; root of context hierarchy
+26-Jan-2019 10:30:58.683 信息 [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+26-Jan-2019 10:30:58.868 信息 [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'appService': initialization completed in 1701 ms
+26-Jan-2019 10:30:58.870 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/ROOT] has finished in [3,463] ms
+26-Jan-2019 10:30:58.875 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+26-Jan-2019 10:30:58.886 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 4996 ms
+26-Jan-2019 10:30:58.893 严重 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: Address already in use (Bind failed)
+	at java.base/java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:437)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:381)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:243)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:422)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:770)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:716)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+
+26-Jan-2019 10:30:58.894 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+26-Jan-2019 10:30:58.954 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+26-Jan-2019 10:30:58.954 信息 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Jan-2019 10:30:58.956 信息 [main] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing WebApplicationContext for namespace 'appService-servlet': startup date [Sat Jan 26 10:30:57 CST 2019]; root of context hierarchy
+26-Jan-2019 10:30:58.983 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+26-Jan-2019 10:30:58.988 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+26-Jan-2019 10:30:58.989 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+26-Jan-2019 10:30:58.989 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+26-Jan-2019 10:31:01.506 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.7
+26-Jan-2019 10:31:01.516 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 3 2018 19:53:05 UTC
+26-Jan-2019 10:31:01.517 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.7.0
+26-Jan-2019 10:31:01.517 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+26-Jan-2019 10:31:01.517 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.11.6
+26-Jan-2019 10:31:01.518 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+26-Jan-2019 10:31:01.518 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home
+26-Jan-2019 10:31:01.518 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           9.0.4+11
+26-Jan-2019 10:31:01.519 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+26-Jan-2019 10:31:01.519 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/macos/Downloads/apache-tomcat-9.0.7
+26-Jan-2019 10:31:01.519 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/macos/Downloads/apache-tomcat-9.0.7
+26-Jan-2019 10:31:01.522 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Jan-2019 10:31:01.522 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Jan-2019 10:31:01.522 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Jan-2019 10:31:01.523 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/macos/Downloads/apache-tomcat-9.0.7/conf/logging.properties
+26-Jan-2019 10:31:01.523 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Jan-2019 10:31:01.523 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Jan-2019 10:31:01.523 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Jan-2019 10:31:01.524 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+26-Jan-2019 10:31:01.524 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Jan-2019 10:31:01.524 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/macos/Downloads/apache-tomcat-9.0.7
+26-Jan-2019 10:31:01.525 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/macos/Downloads/apache-tomcat-9.0.7
+26-Jan-2019 10:31:01.525 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/macos/Downloads/apache-tomcat-9.0.7/temp
+26-Jan-2019 10:31:01.525 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/macos/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+26-Jan-2019 10:31:01.605 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+26-Jan-2019 10:31:01.648 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Jan-2019 10:31:01.659 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+26-Jan-2019 10:31:01.662 严重 [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:935)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:530)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:852)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:656)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:306)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:491)
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:433)
+	at java.base/sun.nio.ch.Net.bind(Net.java:425)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:225)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:227)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:202)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1043)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:540)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:932)
+	... 13 more
+
+26-Jan-2019 10:31:01.665 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1123 ms
+26-Jan-2019 10:31:01.795 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Jan-2019 10:31:01.795 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.7
+26-Jan-2019 10:31:01.815 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/docs]
+26-Jan-2019 10:31:02.602 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/docs] has finished in [787] ms
+26-Jan-2019 10:31:02.603 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/examples]
+26-Jan-2019 10:31:03.194 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/examples] has finished in [591] ms
+26-Jan-2019 10:31:03.195 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/host-manager]
+26-Jan-2019 10:31:03.323 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/host-manager] has finished in [128] ms
+26-Jan-2019 10:31:03.324 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/manager]
+26-Jan-2019 10:31:03.413 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/manager] has finished in [89] ms
+26-Jan-2019 10:31:03.414 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/ROOT]
+26-Jan-2019 10:31:05.807 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Jan-2019 10:31:06.474 信息 [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'appService': initialization started
+26-Jan-2019 10:31:06.585 信息 [main] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'appService-servlet': startup date [Sat Jan 26 10:31:06 CST 2019]; root of context hierarchy
+26-Jan-2019 10:31:06.789 信息 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/appServlet/servlet-context.xml]
+26-Jan-2019 10:31:07.459 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.7
+26-Jan-2019 10:31:07.471 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 3 2018 19:53:05 UTC
+26-Jan-2019 10:31:07.471 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.7.0
+26-Jan-2019 10:31:07.471 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+26-Jan-2019 10:31:07.472 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.11.6
+26-Jan-2019 10:31:07.472 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+26-Jan-2019 10:31:07.472 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home
+26-Jan-2019 10:31:07.473 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           9.0.4+11
+26-Jan-2019 10:31:07.473 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+26-Jan-2019 10:31:07.473 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/macos/Downloads/apache-tomcat-9.0.7
+26-Jan-2019 10:31:07.474 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/macos/Downloads/apache-tomcat-9.0.7
+26-Jan-2019 10:31:07.477 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Jan-2019 10:31:07.478 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Jan-2019 10:31:07.478 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Jan-2019 10:31:07.478 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/macos/Downloads/apache-tomcat-9.0.7/conf/logging.properties
+26-Jan-2019 10:31:07.479 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Jan-2019 10:31:07.479 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Jan-2019 10:31:07.479 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Jan-2019 10:31:07.479 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+26-Jan-2019 10:31:07.480 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Jan-2019 10:31:07.480 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/macos/Downloads/apache-tomcat-9.0.7
+26-Jan-2019 10:31:07.480 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/macos/Downloads/apache-tomcat-9.0.7
+26-Jan-2019 10:31:07.480 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/macos/Downloads/apache-tomcat-9.0.7/temp
+26-Jan-2019 10:31:07.481 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/macos/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+26-Jan-2019 10:31:07.631 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+26-Jan-2019 10:31:07.724 严重 [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[HTTP/1.1-8080]]
+ org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:935)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:530)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:852)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:656)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:306)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:491)
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:433)
+	at java.base/sun.nio.ch.Net.bind(Net.java:425)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:225)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:227)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:202)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1043)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:540)
+	at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:74)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:932)
+	... 13 more
+
+26-Jan-2019 10:31:07.738 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+26-Jan-2019 10:31:07.746 严重 [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:935)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:530)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:852)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:656)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:306)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:491)
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:433)
+	at java.base/sun.nio.ch.Net.bind(Net.java:425)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:225)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:227)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:202)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1043)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:540)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:932)
+	... 13 more
+
+26-Jan-2019 10:31:07.755 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2248 ms
+26-Jan-2019 10:31:07.955 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Jan-2019 10:31:07.956 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.7
+26-Jan-2019 10:31:07.977 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/docs]
+26-Jan-2019 10:31:09.856 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/docs] has finished in [1,877] ms
+26-Jan-2019 10:31:09.856 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/examples]
+26-Jan-2019 10:31:09.987 信息 [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/]}" onto public java.lang.String spring.controller.HomeController.home(org.springframework.ui.Model)
+26-Jan-2019 10:31:10.399 信息 [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'appService-servlet': startup date [Sat Jan 26 10:31:06 CST 2019]; root of context hierarchy
+26-Jan-2019 10:31:10.694 信息 [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'appService-servlet': startup date [Sat Jan 26 10:31:06 CST 2019]; root of context hierarchy
+26-Jan-2019 10:31:11.110 信息 [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+26-Jan-2019 10:31:11.260 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/examples] has finished in [1,403] ms
+26-Jan-2019 10:31:11.261 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/host-manager]
+26-Jan-2019 10:31:11.488 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/host-manager] has finished in [226] ms
+26-Jan-2019 10:31:11.488 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/manager]
+26-Jan-2019 10:31:11.633 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/manager] has finished in [145] ms
+26-Jan-2019 10:31:11.634 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/ROOT]
+26-Jan-2019 10:31:11.797 信息 [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'appService': initialization completed in 5323 ms
+26-Jan-2019 10:31:11.802 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/ROOT] has finished in [8,387] ms
+26-Jan-2019 10:31:11.808 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+26-Jan-2019 10:31:11.852 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 10187 ms
+26-Jan-2019 10:31:11.864 严重 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: Address already in use (Bind failed)
+	at java.base/java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:437)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:381)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:243)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:422)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:770)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:716)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+
+26-Jan-2019 10:31:11.865 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+26-Jan-2019 10:31:11.937 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+26-Jan-2019 10:31:11.937 信息 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Jan-2019 10:31:11.940 信息 [main] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing WebApplicationContext for namespace 'appService-servlet': startup date [Sat Jan 26 10:31:06 CST 2019]; root of context hierarchy
+26-Jan-2019 10:31:12.003 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+26-Jan-2019 10:31:12.010 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+26-Jan-2019 10:31:12.013 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+26-Jan-2019 10:31:12.015 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+26-Jan-2019 10:31:13.808 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Jan-2019 10:31:14.140 信息 [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'appService': initialization started
+26-Jan-2019 10:31:14.186 信息 [main] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'appService-servlet': startup date [Sat Jan 26 10:31:14 CST 2019]; root of context hierarchy
+26-Jan-2019 10:31:14.263 信息 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/appServlet/servlet-context.xml]
+26-Jan-2019 10:31:15.657 信息 [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/]}" onto public java.lang.String spring.controller.HomeController.home(org.springframework.ui.Model)
+26-Jan-2019 10:31:15.810 信息 [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'appService-servlet': startup date [Sat Jan 26 10:31:14 CST 2019]; root of context hierarchy
+26-Jan-2019 10:31:15.941 信息 [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'appService-servlet': startup date [Sat Jan 26 10:31:14 CST 2019]; root of context hierarchy
+26-Jan-2019 10:31:16.106 信息 [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+26-Jan-2019 10:31:16.347 信息 [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'appService': initialization completed in 2207 ms
+26-Jan-2019 10:31:16.350 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/ROOT] has finished in [4,716] ms
+26-Jan-2019 10:31:16.355 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 8599 ms
+26-Jan-2019 10:31:20.710 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.7
+26-Jan-2019 10:31:20.723 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 3 2018 19:53:05 UTC
+26-Jan-2019 10:31:20.724 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.7.0
+26-Jan-2019 10:31:20.724 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+26-Jan-2019 10:31:20.726 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.11.6
+26-Jan-2019 10:31:20.727 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+26-Jan-2019 10:31:20.727 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home
+26-Jan-2019 10:31:20.728 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           9.0.4+11
+26-Jan-2019 10:31:20.728 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+26-Jan-2019 10:31:20.728 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/macos/Downloads/apache-tomcat-9.0.7
+26-Jan-2019 10:31:20.729 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/macos/Downloads/apache-tomcat-9.0.7
+26-Jan-2019 10:31:20.732 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Jan-2019 10:31:20.732 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Jan-2019 10:31:20.733 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Jan-2019 10:31:20.733 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/macos/Downloads/apache-tomcat-9.0.7/conf/logging.properties
+26-Jan-2019 10:31:20.734 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Jan-2019 10:31:20.734 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Jan-2019 10:31:20.734 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Jan-2019 10:31:20.735 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+26-Jan-2019 10:31:20.735 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Jan-2019 10:31:20.735 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/macos/Downloads/apache-tomcat-9.0.7
+26-Jan-2019 10:31:20.736 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/macos/Downloads/apache-tomcat-9.0.7
+26-Jan-2019 10:31:20.736 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/macos/Downloads/apache-tomcat-9.0.7/temp
+26-Jan-2019 10:31:20.737 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/macos/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+26-Jan-2019 10:31:20.824 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+26-Jan-2019 10:31:20.867 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Jan-2019 10:31:20.881 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+26-Jan-2019 10:31:20.884 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Jan-2019 10:31:20.885 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1193 ms
+26-Jan-2019 10:31:20.995 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Jan-2019 10:31:20.996 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.7
+26-Jan-2019 10:31:21.013 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/docs]
+26-Jan-2019 10:31:22.101 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/docs] has finished in [1,087] ms
+26-Jan-2019 10:31:22.102 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/examples]
+26-Jan-2019 10:31:22.624 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/examples] has finished in [521] ms
+26-Jan-2019 10:31:22.625 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/host-manager]
+26-Jan-2019 10:31:22.687 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/host-manager] has finished in [63] ms
+26-Jan-2019 10:31:22.688 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/manager]
+26-Jan-2019 10:31:22.738 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/manager] has finished in [50] ms
+26-Jan-2019 10:31:22.738 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/ROOT]
+26-Jan-2019 10:31:24.072 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Jan-2019 10:31:24.732 信息 [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'appService': initialization started
+26-Jan-2019 10:31:24.815 信息 [main] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'appService-servlet': startup date [Sat Jan 26 10:31:24 CST 2019]; root of context hierarchy
+26-Jan-2019 10:31:24.932 信息 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/appServlet/servlet-context.xml]
+26-Jan-2019 10:31:27.325 信息 [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/]}" onto public java.lang.String spring.controller.HomeController.home(org.springframework.ui.Model)
+26-Jan-2019 10:31:27.658 信息 [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'appService-servlet': startup date [Sat Jan 26 10:31:24 CST 2019]; root of context hierarchy
+26-Jan-2019 10:31:27.917 信息 [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'appService-servlet': startup date [Sat Jan 26 10:31:24 CST 2019]; root of context hierarchy
+26-Jan-2019 10:31:28.330 信息 [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+26-Jan-2019 10:31:28.730 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.7
+26-Jan-2019 10:31:28.745 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 3 2018 19:53:05 UTC
+26-Jan-2019 10:31:28.745 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.7.0
+26-Jan-2019 10:31:28.745 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+26-Jan-2019 10:31:28.746 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.11.6
+26-Jan-2019 10:31:28.746 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+26-Jan-2019 10:31:28.748 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home
+26-Jan-2019 10:31:28.748 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           9.0.4+11
+26-Jan-2019 10:31:28.749 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+26-Jan-2019 10:31:28.749 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/macos/Downloads/apache-tomcat-9.0.7
+26-Jan-2019 10:31:28.749 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/macos/Downloads/apache-tomcat-9.0.7
+26-Jan-2019 10:31:28.751 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Jan-2019 10:31:28.752 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Jan-2019 10:31:28.752 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Jan-2019 10:31:28.753 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/macos/Downloads/apache-tomcat-9.0.7/conf/logging.properties
+26-Jan-2019 10:31:28.753 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Jan-2019 10:31:28.753 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Jan-2019 10:31:28.754 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Jan-2019 10:31:28.754 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+26-Jan-2019 10:31:28.754 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Jan-2019 10:31:28.755 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/macos/Downloads/apache-tomcat-9.0.7
+26-Jan-2019 10:31:28.755 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/macos/Downloads/apache-tomcat-9.0.7
+26-Jan-2019 10:31:28.755 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/macos/Downloads/apache-tomcat-9.0.7/temp
+26-Jan-2019 10:31:28.755 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/macos/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+26-Jan-2019 10:31:28.859 信息 [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'appService': initialization completed in 4125 ms
+26-Jan-2019 10:31:28.863 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/ROOT] has finished in [6,124] ms
+26-Jan-2019 10:31:28.868 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+26-Jan-2019 10:31:28.908 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+26-Jan-2019 10:31:28.911 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 8026 ms
+26-Jan-2019 10:31:28.923 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+26-Jan-2019 10:31:28.923 严重 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: Address already in use (Bind failed)
+	at java.base/java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:437)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:381)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:243)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:422)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:770)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:716)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+
+26-Jan-2019 10:31:28.926 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+26-Jan-2019 10:31:28.984 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+26-Jan-2019 10:31:29.010 严重 [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[HTTP/1.1-8080]]
+ org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:935)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:530)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:852)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:656)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:306)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:491)
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:433)
+	at java.base/sun.nio.ch.Net.bind(Net.java:425)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:225)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:227)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:202)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1043)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:540)
+	at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:74)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:932)
+	... 13 more
+
+26-Jan-2019 10:31:29.016 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+26-Jan-2019 10:31:29.018 严重 [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:935)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:530)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:852)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:656)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:306)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:491)
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:433)
+	at java.base/sun.nio.ch.Net.bind(Net.java:425)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:225)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:227)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:202)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1043)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:540)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:932)
+	... 13 more
+
+26-Jan-2019 10:31:29.019 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2396 ms
+26-Jan-2019 10:31:29.038 信息 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Jan-2019 10:31:29.041 信息 [main] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing WebApplicationContext for namespace 'appService-servlet': startup date [Sat Jan 26 10:31:24 CST 2019]; root of context hierarchy
+26-Jan-2019 10:31:29.093 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+26-Jan-2019 10:31:29.099 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+26-Jan-2019 10:31:29.105 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+26-Jan-2019 10:31:29.106 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+26-Jan-2019 10:31:29.223 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Jan-2019 10:31:29.224 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.7
+26-Jan-2019 10:31:29.243 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/docs]
+26-Jan-2019 10:31:30.123 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/docs] has finished in [840] ms
+26-Jan-2019 10:31:30.125 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/examples]
+26-Jan-2019 10:31:30.907 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/examples] has finished in [783] ms
+26-Jan-2019 10:31:30.908 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/host-manager]
+26-Jan-2019 10:31:30.968 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/host-manager] has finished in [61] ms
+26-Jan-2019 10:31:30.969 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/manager]
+26-Jan-2019 10:31:31.025 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/manager] has finished in [55] ms
+26-Jan-2019 10:31:31.025 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/ROOT]
+26-Jan-2019 10:31:32.330 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Jan-2019 10:31:32.619 信息 [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'appService': initialization started
+26-Jan-2019 10:31:32.665 信息 [main] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'appService-servlet': startup date [Sat Jan 26 10:31:32 CST 2019]; root of context hierarchy
+26-Jan-2019 10:31:32.745 信息 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/appServlet/servlet-context.xml]
+26-Jan-2019 10:31:34.245 信息 [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/]}" onto public java.lang.String spring.controller.HomeController.home(org.springframework.ui.Model)
+26-Jan-2019 10:31:34.398 信息 [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'appService-servlet': startup date [Sat Jan 26 10:31:32 CST 2019]; root of context hierarchy
+26-Jan-2019 10:31:34.517 信息 [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'appService-servlet': startup date [Sat Jan 26 10:31:32 CST 2019]; root of context hierarchy
+26-Jan-2019 10:31:34.668 信息 [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+26-Jan-2019 10:31:34.893 信息 [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'appService': initialization completed in 2273 ms
+26-Jan-2019 10:31:34.895 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/ROOT] has finished in [3,870] ms
+26-Jan-2019 10:31:34.899 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 5879 ms
+26-Jan-2019 10:31:34.908 严重 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: Address already in use (Bind failed)
+	at java.base/java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:437)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:381)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:243)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:422)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:770)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:716)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+
+26-Jan-2019 10:31:34.909 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+26-Jan-2019 10:31:34.910 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+26-Jan-2019 10:31:34.910 信息 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Jan-2019 10:31:34.912 信息 [main] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing WebApplicationContext for namespace 'appService-servlet': startup date [Sat Jan 26 10:31:32 CST 2019]; root of context hierarchy
+26-Jan-2019 10:31:34.953 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+26-Jan-2019 10:31:34.954 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+26-Jan-2019 10:31:34.954 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+26-Jan-2019 10:31:34.955 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+26-Jan-2019 10:32:59.982 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.7
+26-Jan-2019 10:32:59.996 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 3 2018 19:53:05 UTC
+26-Jan-2019 10:32:59.996 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.7.0
+26-Jan-2019 10:32:59.996 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+26-Jan-2019 10:32:59.997 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.11.6
+26-Jan-2019 10:32:59.998 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+26-Jan-2019 10:33:00.001 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home
+26-Jan-2019 10:33:00.004 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           9.0.4+11
+26-Jan-2019 10:33:00.005 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+26-Jan-2019 10:33:00.006 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/macos/Downloads/apache-tomcat-9.0.7
+26-Jan-2019 10:33:00.007 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/macos/Downloads/apache-tomcat-9.0.7
+26-Jan-2019 10:33:00.009 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Jan-2019 10:33:00.010 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Jan-2019 10:33:00.010 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Jan-2019 10:33:00.010 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/macos/Downloads/apache-tomcat-9.0.7/conf/logging.properties
+26-Jan-2019 10:33:00.010 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Jan-2019 10:33:00.010 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Jan-2019 10:33:00.011 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Jan-2019 10:33:00.011 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+26-Jan-2019 10:33:00.011 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Jan-2019 10:33:00.011 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/macos/Downloads/apache-tomcat-9.0.7
+26-Jan-2019 10:33:00.012 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/macos/Downloads/apache-tomcat-9.0.7
+26-Jan-2019 10:33:00.012 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/macos/Downloads/apache-tomcat-9.0.7/temp
+26-Jan-2019 10:33:00.013 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/macos/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+26-Jan-2019 10:33:00.084 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+26-Jan-2019 10:33:00.123 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Jan-2019 10:33:00.133 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+26-Jan-2019 10:33:00.136 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Jan-2019 10:33:00.136 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 991 ms
+26-Jan-2019 10:33:00.248 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Jan-2019 10:33:00.249 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.7
+26-Jan-2019 10:33:00.265 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/docs]
+26-Jan-2019 10:33:00.960 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/docs] has finished in [695] ms
+26-Jan-2019 10:33:00.961 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/examples]
+26-Jan-2019 10:33:01.438 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/examples] has finished in [477] ms
+26-Jan-2019 10:33:01.439 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/host-manager]
+26-Jan-2019 10:33:01.492 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/host-manager] has finished in [53] ms
+26-Jan-2019 10:33:01.493 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/manager]
+26-Jan-2019 10:33:01.537 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/manager] has finished in [45] ms
+26-Jan-2019 10:33:01.537 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/ROOT]
+26-Jan-2019 10:33:02.739 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Jan-2019 10:33:03.021 信息 [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'appService': initialization started
+26-Jan-2019 10:33:03.063 信息 [main] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'appService-servlet': startup date [Sat Jan 26 10:33:03 CST 2019]; root of context hierarchy
+26-Jan-2019 10:33:03.144 信息 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/appServlet/servlet-context.xml]
+26-Jan-2019 10:33:04.277 信息 [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/]}" onto public java.lang.String spring.controller.HomeController.home(org.springframework.ui.Model)
+26-Jan-2019 10:33:04.434 信息 [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'appService-servlet': startup date [Sat Jan 26 10:33:03 CST 2019]; root of context hierarchy
+26-Jan-2019 10:33:04.525 信息 [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'appService-servlet': startup date [Sat Jan 26 10:33:03 CST 2019]; root of context hierarchy
+26-Jan-2019 10:33:04.661 信息 [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+26-Jan-2019 10:33:04.854 信息 [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'appService': initialization completed in 1832 ms
+26-Jan-2019 10:33:04.856 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/ROOT] has finished in [3,319] ms
+26-Jan-2019 10:33:04.859 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+26-Jan-2019 10:33:04.871 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+26-Jan-2019 10:33:04.874 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 4736 ms
+26-Jan-2019 10:33:04.881 严重 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: Address already in use (Bind failed)
+	at java.base/java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:437)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:381)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:243)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:422)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:770)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:716)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+
+26-Jan-2019 10:33:04.883 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+26-Jan-2019 10:33:04.943 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+26-Jan-2019 10:33:04.999 信息 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Jan-2019 10:33:05.002 信息 [main] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing WebApplicationContext for namespace 'appService-servlet': startup date [Sat Jan 26 10:33:03 CST 2019]; root of context hierarchy
+26-Jan-2019 10:33:05.033 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+26-Jan-2019 10:33:05.039 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+26-Jan-2019 10:33:05.042 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+26-Jan-2019 10:33:05.043 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+26-Jan-2019 10:35:21.398 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+26-Jan-2019 10:43:51.585 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+26-Jan-2019 10:44:49.278 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+26-Jan-2019 10:47:20.283 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.7
+26-Jan-2019 10:47:20.296 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 3 2018 19:53:05 UTC
+26-Jan-2019 10:47:20.297 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.7.0
+26-Jan-2019 10:47:20.297 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+26-Jan-2019 10:47:20.298 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.11.6
+26-Jan-2019 10:47:20.299 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+26-Jan-2019 10:47:20.300 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home
+26-Jan-2019 10:47:20.300 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           9.0.4+11
+26-Jan-2019 10:47:20.301 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+26-Jan-2019 10:47:20.301 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/macos/Downloads/apache-tomcat-9.0.7
+26-Jan-2019 10:47:20.302 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/macos/Downloads/apache-tomcat-9.0.7
+26-Jan-2019 10:47:20.304 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Jan-2019 10:47:20.304 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Jan-2019 10:47:20.305 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Jan-2019 10:47:20.305 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/macos/Downloads/apache-tomcat-9.0.7/conf/logging.properties
+26-Jan-2019 10:47:20.305 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Jan-2019 10:47:20.305 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Jan-2019 10:47:20.306 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Jan-2019 10:47:20.306 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+26-Jan-2019 10:47:20.307 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Jan-2019 10:47:20.307 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/macos/Downloads/apache-tomcat-9.0.7
+26-Jan-2019 10:47:20.307 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/macos/Downloads/apache-tomcat-9.0.7
+26-Jan-2019 10:47:20.308 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/macos/Downloads/apache-tomcat-9.0.7/temp
+26-Jan-2019 10:47:20.309 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/macos/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+26-Jan-2019 10:47:20.415 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+26-Jan-2019 10:47:20.467 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Jan-2019 10:47:20.477 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+26-Jan-2019 10:47:20.480 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Jan-2019 10:47:20.483 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1080 ms
+26-Jan-2019 10:47:20.622 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Jan-2019 10:47:20.623 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.7
+26-Jan-2019 10:47:20.647 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/docs]
+26-Jan-2019 10:47:21.504 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/docs] has finished in [856] ms
+26-Jan-2019 10:47:21.505 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/examples]
+26-Jan-2019 10:47:21.978 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/examples] has finished in [473] ms
+26-Jan-2019 10:47:21.979 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/host-manager]
+26-Jan-2019 10:47:22.035 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/host-manager] has finished in [57] ms
+26-Jan-2019 10:47:22.037 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/manager]
+26-Jan-2019 10:47:22.082 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/manager] has finished in [46] ms
+26-Jan-2019 10:47:22.083 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/ROOT]
+26-Jan-2019 10:47:23.279 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Jan-2019 10:47:23.538 信息 [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'appService': initialization started
+26-Jan-2019 10:47:23.589 信息 [main] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'appService-servlet': startup date [Sat Jan 26 10:47:23 CST 2019]; root of context hierarchy
+26-Jan-2019 10:47:23.677 信息 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/appServlet/servlet-context.xml]
+26-Jan-2019 10:47:24.839 信息 [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/]}" onto public java.lang.String spring.controller.HomeController.home(org.springframework.ui.Model)
+26-Jan-2019 10:47:24.970 信息 [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'appService-servlet': startup date [Sat Jan 26 10:47:23 CST 2019]; root of context hierarchy
+26-Jan-2019 10:47:25.071 信息 [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'appService-servlet': startup date [Sat Jan 26 10:47:23 CST 2019]; root of context hierarchy
+26-Jan-2019 10:47:25.256 信息 [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+26-Jan-2019 10:47:25.551 信息 [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'appService': initialization completed in 2013 ms
+26-Jan-2019 10:47:25.562 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/ROOT] has finished in [3,477] ms
+26-Jan-2019 10:47:25.568 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+26-Jan-2019 10:47:25.585 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+26-Jan-2019 10:47:25.608 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 5125 ms
+26-Jan-2019 10:47:25.618 严重 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: Address already in use (Bind failed)
+	at java.base/java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:437)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:381)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:243)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:422)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:770)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:716)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+
+26-Jan-2019 10:47:25.625 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+26-Jan-2019 10:47:25.638 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+26-Jan-2019 10:47:25.642 信息 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Jan-2019 10:47:25.646 信息 [main] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing WebApplicationContext for namespace 'appService-servlet': startup date [Sat Jan 26 10:47:23 CST 2019]; root of context hierarchy
+26-Jan-2019 10:47:25.703 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+26-Jan-2019 10:47:25.710 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+26-Jan-2019 10:47:25.715 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+26-Jan-2019 10:47:25.716 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+26-Jan-2019 10:47:37.340 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.7
+26-Jan-2019 10:47:37.350 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 3 2018 19:53:05 UTC
+26-Jan-2019 10:47:37.350 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.7.0
+26-Jan-2019 10:47:37.351 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+26-Jan-2019 10:47:37.351 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.11.6
+26-Jan-2019 10:47:37.351 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+26-Jan-2019 10:47:37.352 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home
+26-Jan-2019 10:47:37.352 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           9.0.4+11
+26-Jan-2019 10:47:37.352 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+26-Jan-2019 10:47:37.353 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/macos/Downloads/apache-tomcat-9.0.7
+26-Jan-2019 10:47:37.353 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/macos/Downloads/apache-tomcat-9.0.7
+26-Jan-2019 10:47:37.358 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Jan-2019 10:47:37.359 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Jan-2019 10:47:37.360 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Jan-2019 10:47:37.361 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/macos/Downloads/apache-tomcat-9.0.7/conf/logging.properties
+26-Jan-2019 10:47:37.361 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Jan-2019 10:47:37.362 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Jan-2019 10:47:37.362 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Jan-2019 10:47:37.363 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+26-Jan-2019 10:47:37.363 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Jan-2019 10:47:37.363 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/macos/Downloads/apache-tomcat-9.0.7
+26-Jan-2019 10:47:37.364 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/macos/Downloads/apache-tomcat-9.0.7
+26-Jan-2019 10:47:37.364 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/macos/Downloads/apache-tomcat-9.0.7/temp
+26-Jan-2019 10:47:37.365 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/macos/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+26-Jan-2019 10:47:37.444 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+26-Jan-2019 10:47:37.483 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Jan-2019 10:47:37.495 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+26-Jan-2019 10:47:37.498 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Jan-2019 10:47:37.499 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1111 ms
+26-Jan-2019 10:47:37.619 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Jan-2019 10:47:37.619 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.7
+26-Jan-2019 10:47:37.635 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/docs]
+26-Jan-2019 10:47:38.442 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/docs] has finished in [806] ms
+26-Jan-2019 10:47:38.443 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/examples]
+26-Jan-2019 10:47:38.892 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/examples] has finished in [449] ms
+26-Jan-2019 10:47:38.892 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/host-manager]
+26-Jan-2019 10:47:38.943 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/host-manager] has finished in [51] ms
+26-Jan-2019 10:47:38.944 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/manager]
+26-Jan-2019 10:47:38.988 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/manager] has finished in [44] ms
+26-Jan-2019 10:47:38.988 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/ROOT]
+26-Jan-2019 10:47:40.518 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Jan-2019 10:47:40.839 信息 [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'appService': initialization started
+26-Jan-2019 10:47:40.884 信息 [main] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'appService-servlet': startup date [Sat Jan 26 10:47:40 CST 2019]; root of context hierarchy
+26-Jan-2019 10:47:40.940 信息 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/appServlet/servlet-context.xml]
+26-Jan-2019 10:47:42.015 信息 [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/]}" onto public java.lang.String spring.controller.HomeController.home(org.springframework.ui.Model)
+26-Jan-2019 10:47:42.138 信息 [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'appService-servlet': startup date [Sat Jan 26 10:47:40 CST 2019]; root of context hierarchy
+26-Jan-2019 10:47:42.219 信息 [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'appService-servlet': startup date [Sat Jan 26 10:47:40 CST 2019]; root of context hierarchy
+26-Jan-2019 10:47:42.365 信息 [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+26-Jan-2019 10:47:42.579 信息 [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'appService': initialization completed in 1739 ms
+26-Jan-2019 10:47:42.584 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/ROOT] has finished in [3,594] ms
+26-Jan-2019 10:47:42.590 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+26-Jan-2019 10:47:42.608 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+26-Jan-2019 10:47:42.615 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 5115 ms
+26-Jan-2019 10:47:42.625 严重 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: Address already in use (Bind failed)
+	at java.base/java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:437)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:381)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:243)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:422)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:770)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:716)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+
+26-Jan-2019 10:47:42.628 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+26-Jan-2019 10:47:42.689 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+26-Jan-2019 10:47:42.691 信息 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Jan-2019 10:47:42.694 信息 [main] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing WebApplicationContext for namespace 'appService-servlet': startup date [Sat Jan 26 10:47:40 CST 2019]; root of context hierarchy
+26-Jan-2019 10:47:42.733 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+26-Jan-2019 10:47:42.739 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+26-Jan-2019 10:47:42.743 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+26-Jan-2019 10:47:42.743 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+26-Jan-2019 10:47:49.897 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.7
+26-Jan-2019 10:47:49.909 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 3 2018 19:53:05 UTC
+26-Jan-2019 10:47:49.909 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.7.0
+26-Jan-2019 10:47:49.910 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+26-Jan-2019 10:47:49.910 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.11.6
+26-Jan-2019 10:47:49.915 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+26-Jan-2019 10:47:49.915 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home
+26-Jan-2019 10:47:49.916 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           9.0.4+11
+26-Jan-2019 10:47:49.916 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+26-Jan-2019 10:47:49.917 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/macos/Downloads/apache-tomcat-9.0.7
+26-Jan-2019 10:47:49.917 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/macos/Downloads/apache-tomcat-9.0.7
+26-Jan-2019 10:47:49.919 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+26-Jan-2019 10:47:49.920 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+26-Jan-2019 10:47:49.921 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+26-Jan-2019 10:47:49.922 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/macos/Downloads/apache-tomcat-9.0.7/conf/logging.properties
+26-Jan-2019 10:47:49.922 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Jan-2019 10:47:49.923 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Jan-2019 10:47:49.923 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Jan-2019 10:47:49.924 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+26-Jan-2019 10:47:49.925 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+26-Jan-2019 10:47:49.925 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/macos/Downloads/apache-tomcat-9.0.7
+26-Jan-2019 10:47:49.926 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/macos/Downloads/apache-tomcat-9.0.7
+26-Jan-2019 10:47:49.927 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/macos/Downloads/apache-tomcat-9.0.7/temp
+26-Jan-2019 10:47:49.927 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/macos/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+26-Jan-2019 10:47:50.019 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+26-Jan-2019 10:47:50.051 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Jan-2019 10:47:50.061 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+26-Jan-2019 10:47:50.064 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Jan-2019 10:47:50.065 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1049 ms
+26-Jan-2019 10:47:50.180 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Jan-2019 10:47:50.180 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.7
+26-Jan-2019 10:47:50.197 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/docs]
+26-Jan-2019 10:47:51.243 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/docs] has finished in [1,045] ms
+26-Jan-2019 10:47:51.243 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/examples]
+26-Jan-2019 10:47:51.953 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/examples] has finished in [709] ms
+26-Jan-2019 10:47:51.953 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/host-manager]
+26-Jan-2019 10:47:52.010 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/host-manager] has finished in [57] ms
+26-Jan-2019 10:47:52.011 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/manager]
+26-Jan-2019 10:47:52.061 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/manager] has finished in [49] ms
+26-Jan-2019 10:47:52.061 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/ROOT]
+26-Jan-2019 10:47:53.323 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Jan-2019 10:47:53.648 信息 [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'appService': initialization started
+26-Jan-2019 10:47:53.712 信息 [main] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'appService-servlet': startup date [Sat Jan 26 10:47:53 CST 2019]; root of context hierarchy
+26-Jan-2019 10:47:53.806 信息 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/appServlet/servlet-context.xml]
+26-Jan-2019 10:47:55.048 信息 [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/]}" onto public java.lang.String spring.controller.HomeController.home(org.springframework.ui.Model)
+26-Jan-2019 10:47:55.196 信息 [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'appService-servlet': startup date [Sat Jan 26 10:47:53 CST 2019]; root of context hierarchy
+26-Jan-2019 10:47:55.293 信息 [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'appService-servlet': startup date [Sat Jan 26 10:47:53 CST 2019]; root of context hierarchy
+26-Jan-2019 10:47:55.443 信息 [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+26-Jan-2019 10:47:55.655 信息 [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'appService': initialization completed in 2006 ms
+26-Jan-2019 10:47:55.658 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/macos/Downloads/apache-tomcat-9.0.7/webapps/ROOT] has finished in [3,597] ms
+26-Jan-2019 10:47:55.663 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+26-Jan-2019 10:47:55.678 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+26-Jan-2019 10:47:55.681 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 5616 ms
+26-Jan-2019 10:47:55.690 严重 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: Address already in use (Bind failed)
+	at java.base/java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:437)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:381)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:243)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:422)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:770)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:716)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:350)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+
+26-Jan-2019 10:47:55.693 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+26-Jan-2019 10:47:55.753 信息 [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+26-Jan-2019 10:47:55.809 信息 [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Jan-2019 10:47:55.811 信息 [main] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing WebApplicationContext for namespace 'appService-servlet': startup date [Sat Jan 26 10:47:53 CST 2019]; root of context hierarchy
+26-Jan-2019 10:47:55.845 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+26-Jan-2019 10:47:55.851 信息 [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+26-Jan-2019 10:47:55.857 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+26-Jan-2019 10:47:55.858 信息 [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+26-Jan-2019 10:48:34.658 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+26-Jan-2019 10:59:37.758 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+26-Jan-2019 11:02:07.692 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+26-Jan-2019 11:03:07.202 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+26-Jan-2019 11:07:58.876 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+26-Jan-2019 11:09:44.790 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+26-Jan-2019 11:14:55.965 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+26-Jan-2019 11:22:43.327 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+26-Jan-2019 11:24:43.361 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+26-Jan-2019 11:26:07.646 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+26-Jan-2019 15:42:27.764 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+26-Jan-2019 15:44:10.712 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+26-Jan-2019 15:47:55.729 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+26-Jan-2019 15:49:09.787 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+26-Jan-2019 15:49:42.490 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+26-Jan-2019 15:50:52.977 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+26-Jan-2019 16:48:31.998 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+26-Jan-2019 17:02:25.465 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received
+26-Jan-2019 17:11:02.153 警告 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: Invalid command '' received

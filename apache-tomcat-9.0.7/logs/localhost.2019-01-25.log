@@ -1,0 +1,34 @@
+25-Jan-2019 16:39:45.906 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+25-Jan-2019 16:39:45.906 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+25-Jan-2019 16:39:45.909 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@f31c0c6')
+25-Jan-2019 16:39:47.412 信息 [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+25-Jan-2019 16:39:47.678 信息 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appService'
+25-Jan-2019 16:39:49.920 信息 [main] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appService'
+25-Jan-2019 16:39:49.954 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+25-Jan-2019 16:39:49.954 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+25-Jan-2019 16:39:58.388 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+25-Jan-2019 16:39:58.389 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+25-Jan-2019 16:39:58.392 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@41394595')
+25-Jan-2019 16:40:01.600 信息 [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+25-Jan-2019 16:40:02.396 信息 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appService'
+25-Jan-2019 16:40:04.037 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+25-Jan-2019 16:40:04.037 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+25-Jan-2019 16:40:04.040 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@1051817b')
+25-Jan-2019 16:40:07.940 信息 [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+25-Jan-2019 16:40:08.421 信息 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appService'
+25-Jan-2019 16:40:13.572 信息 [main] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appService'
+25-Jan-2019 16:40:13.650 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+25-Jan-2019 16:40:13.653 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+25-Jan-2019 16:59:21.460 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+25-Jan-2019 16:59:21.460 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+25-Jan-2019 16:59:21.463 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@4b4dd216')
+25-Jan-2019 16:59:23.253 信息 [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+25-Jan-2019 16:59:23.572 信息 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appService'
+25-Jan-2019 16:59:25.545 信息 [main] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'appService'
+25-Jan-2019 16:59:25.576 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+25-Jan-2019 16:59:25.577 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+25-Jan-2019 17:00:54.147 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+25-Jan-2019 17:00:54.148 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+25-Jan-2019 17:00:54.150 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@5a021cb9')
+25-Jan-2019 17:00:55.614 信息 [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+25-Jan-2019 17:00:55.912 信息 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'appService'

@@ -1,0 +1,50 @@
+05-Mar-2019 16:06:49.263 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.7
+05-Mar-2019 16:06:49.272 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 3 2018 19:53:05 UTC
+05-Mar-2019 16:06:49.272 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.7.0
+05-Mar-2019 16:06:49.272 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+05-Mar-2019 16:06:49.272 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.14.1
+05-Mar-2019 16:06:49.272 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+05-Mar-2019 16:06:49.272 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre
+05-Mar-2019 16:06:49.272 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_201-b09
+05-Mar-2019 16:06:49.272 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Mar-2019 16:06:49.272 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/luoshaohua/Downloads/apache-tomcat-9.0.7
+05-Mar-2019 16:06:49.273 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/luoshaohua/Downloads/apache-tomcat-9.0.7
+05-Mar-2019 16:06:49.273 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/luoshaohua/Downloads/apache-tomcat-9.0.7/conf/logging.properties
+05-Mar-2019 16:06:49.274 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Mar-2019 16:06:49.274 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Mar-2019 16:06:49.274 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Mar-2019 16:06:49.274 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+05-Mar-2019 16:06:49.274 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+05-Mar-2019 16:06:49.274 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/luoshaohua/Downloads/apache-tomcat-9.0.7
+05-Mar-2019 16:06:49.274 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/luoshaohua/Downloads/apache-tomcat-9.0.7
+05-Mar-2019 16:06:49.274 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/luoshaohua/Downloads/apache-tomcat-9.0.7/temp
+05-Mar-2019 16:06:49.274 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/luoshaohua/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+05-Mar-2019 16:06:49.428 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Mar-2019 16:06:49.457 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Mar-2019 16:06:49.464 信息 [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Mar-2019 16:06:49.464 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Mar-2019 16:06:49.465 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 585 ms
+05-Mar-2019 16:06:49.494 信息 [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Mar-2019 16:06:49.494 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.7
+05-Mar-2019 16:06:49.502 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/luoshaohua/Downloads/apache-tomcat-9.0.7/webapps/docs]
+05-Mar-2019 16:06:49.815 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/luoshaohua/Downloads/apache-tomcat-9.0.7/webapps/docs] has finished in [313] ms
+05-Mar-2019 16:06:49.815 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/luoshaohua/Downloads/apache-tomcat-9.0.7/webapps/manager]
+05-Mar-2019 16:06:49.838 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/luoshaohua/Downloads/apache-tomcat-9.0.7/webapps/manager] has finished in [23] ms
+05-Mar-2019 16:06:49.838 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/luoshaohua/Downloads/apache-tomcat-9.0.7/webapps/examples]
+05-Mar-2019 16:06:50.064 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/luoshaohua/Downloads/apache-tomcat-9.0.7/webapps/examples] has finished in [226] ms
+05-Mar-2019 16:06:50.064 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/luoshaohua/Downloads/apache-tomcat-9.0.7/webapps/ROOT]
+05-Mar-2019 16:06:50.728 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Mar-2019 16:06:50.843 信息 [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'appService': initialization started
+05-Mar-2019 16:06:50.863 信息 [main] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'appService-servlet': startup date [Tue Mar 05 16:06:50 CST 2019]; root of context hierarchy
+05-Mar-2019 16:06:50.897 信息 [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/appServlet/servlet-context.xml]
+05-Mar-2019 16:06:51.418 信息 [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/]}" onto public java.lang.String spring.controller.HomeController.home(org.springframework.ui.Model)
+05-Mar-2019 16:06:51.484 信息 [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'appService-servlet': startup date [Tue Mar 05 16:06:50 CST 2019]; root of context hierarchy
+05-Mar-2019 16:06:51.525 信息 [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'appService-servlet': startup date [Tue Mar 05 16:06:50 CST 2019]; root of context hierarchy
+05-Mar-2019 16:06:51.576 信息 [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+05-Mar-2019 16:06:51.644 信息 [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'appService': initialization completed in 801 ms
+05-Mar-2019 16:06:51.646 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/luoshaohua/Downloads/apache-tomcat-9.0.7/webapps/ROOT] has finished in [1,582] ms
+05-Mar-2019 16:06:51.646 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/luoshaohua/Downloads/apache-tomcat-9.0.7/webapps/host-manager]
+05-Mar-2019 16:06:51.660 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/luoshaohua/Downloads/apache-tomcat-9.0.7/webapps/host-manager] has finished in [14] ms
+05-Mar-2019 16:06:51.662 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Mar-2019 16:06:51.668 信息 [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Mar-2019 16:06:51.670 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 2205 ms

@@ -1,0 +1,170 @@
+Fri Jan 25 19:20:09 CST 2019  [debug] AvalonLogChute initialized using file 'velocity.log'
+Fri Jan 25 19:20:09 CST 2019  [trace] *******************************************************************
+Fri Jan 25 19:20:09 CST 2019  [debug] Starting Apache Velocity v1.5 (compiled: 2007-02-22 08:52:29)
+Fri Jan 25 19:20:09 CST 2019  [trace] RuntimeInstance initializing.
+Fri Jan 25 19:20:09 CST 2019  [debug] Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+Fri Jan 25 19:20:09 CST 2019  [debug] Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+Fri Jan 25 19:20:09 CST 2019  [debug] Using logger class org.apache.velocity.runtime.log.AvalonLogChute
+Fri Jan 25 19:20:09 CST 2019  [debug] Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+Fri Jan 25 19:20:09 CST 2019  [debug] ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Fri Jan 25 19:20:09 CST 2019  [trace] FileResourceLoader : initialization starting.
+Fri Jan 25 19:20:09 CST 2019  [debug] Do unicode file recognition:  false
+Fri Jan 25 19:20:09 CST 2019   [info] FileResourceLoader : adding path '/Users/macos/Desktop/8-????/wemall20170815/wemall/WebRoot/WEB-INF/classes/artifacts/wemall_war_exploded/vm/'
+Fri Jan 25 19:20:09 CST 2019  [trace] FileResourceLoader : initialization complete.
+Fri Jan 25 19:20:09 CST 2019  [debug] ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+Fri Jan 25 19:20:09 CST 2019  [trace] Default ResourceManager initialization complete.
+Fri Jan 25 19:20:09 CST 2019  [debug] Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+Fri Jan 25 19:20:09 CST 2019  [debug] Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+Fri Jan 25 19:20:09 CST 2019  [debug] Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+Fri Jan 25 19:20:09 CST 2019  [debug] Loaded System Directive: org.apache.velocity.runtime.directive.Include
+Fri Jan 25 19:20:09 CST 2019  [debug] Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+Fri Jan 25 19:20:09 CST 2019  [debug] Created '20' parsers.
+Fri Jan 25 19:20:09 CST 2019  [trace] Velocimacro : initialization starting.
+Fri Jan 25 19:20:09 CST 2019  [debug] Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+Fri Jan 25 19:20:09 CST 2019  [debug] Velocimacro : Default library not found.
+Fri Jan 25 19:20:09 CST 2019  [debug] Velocimacro : allowInline = true : VMs can be defined inline in templates
+Fri Jan 25 19:20:09 CST 2019  [debug] Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+Fri Jan 25 19:20:09 CST 2019  [debug] Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+Fri Jan 25 19:20:09 CST 2019  [debug] Velocimacro : autoload off : VM system will not automatically reload global library macros
+Fri Jan 25 19:20:09 CST 2019  [trace] Velocimacro : Velocimacro : initialization complete.
+Fri Jan 25 19:20:09 CST 2019  [trace] RuntimeInstance successfully initialized.
+Fri Jan 25 19:20:09 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Fri Jan 25 19:20:15 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Fri Jan 25 19:20:16 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Fri Jan 25 19:20:16 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Fri Jan 25 19:20:16 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Fri Jan 25 19:20:16 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Fri Jan 25 19:20:16 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Fri Jan 25 19:20:16 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Fri Jan 25 19:20:16 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Fri Jan 25 19:20:16 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Fri Jan 25 19:30:01 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Fri Jan 25 19:30:02 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Fri Jan 25 19:30:02 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Fri Jan 25 19:30:02 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Fri Jan 25 19:30:02 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Fri Jan 25 19:30:02 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Fri Jan 25 19:30:02 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Fri Jan 25 19:30:02 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Fri Jan 25 19:30:02 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Fri Jan 25 19:30:02 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Fri Jan 25 20:00:01 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Fri Jan 25 20:00:02 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Fri Jan 25 20:00:02 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Fri Jan 25 20:00:03 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Fri Jan 25 20:00:03 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Fri Jan 25 20:00:04 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Fri Jan 25 20:00:05 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Fri Jan 25 20:00:05 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Fri Jan 25 20:00:08 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Fri Jan 25 20:00:09 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Fri Jan 25 22:29:03 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Fri Jan 25 22:29:04 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Fri Jan 25 22:29:04 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Fri Jan 25 22:29:04 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Fri Jan 25 22:29:04 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Fri Jan 25 22:29:05 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Fri Jan 25 22:29:05 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Fri Jan 25 22:29:05 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Fri Jan 25 22:29:05 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Fri Jan 25 22:29:05 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 00:29:55 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 00:29:56 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 00:29:56 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 00:29:56 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 00:29:56 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 00:29:56 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 00:29:57 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 00:29:57 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 00:29:57 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 00:29:57 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 00:30:00 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 00:30:01 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 00:30:01 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 00:30:01 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 00:30:01 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 00:30:01 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 00:30:01 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 00:30:01 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 00:30:01 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 00:30:08 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 02:30:47 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 02:30:48 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 02:30:48 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 02:30:48 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 02:30:48 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 02:30:49 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 02:30:49 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 02:30:49 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 02:30:49 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 02:30:49 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 04:31:50 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 04:31:50 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 04:31:50 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 04:31:50 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 04:31:50 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 04:31:50 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 04:31:50 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 04:31:50 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 04:31:50 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 04:31:50 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 06:32:37 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 06:32:39 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 06:32:39 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 06:32:39 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 06:32:39 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 06:32:39 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 06:32:39 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 06:32:39 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 06:32:39 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 06:32:39 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 08:06:01 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 08:06:01 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 08:06:02 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 08:06:02 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 08:06:02 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 08:06:02 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 08:06:02 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 08:06:02 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 08:06:02 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 08:06:02 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 08:42:25 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 08:42:25 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 08:42:25 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 08:42:25 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 08:42:25 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 08:42:26 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 08:42:26 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 08:42:26 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 08:42:26 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 08:42:26 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 09:00:00 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 09:00:02 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 09:00:02 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 09:00:03 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 09:00:04 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 09:00:04 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 09:00:05 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 09:00:05 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 09:00:06 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 09:00:06 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 09:30:00 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 09:30:02 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 09:30:02 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 09:30:03 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 09:30:04 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 09:30:04 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 09:30:05 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 09:30:06 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 09:30:06 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 09:30:07 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 10:06:58 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 10:06:58 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 10:06:58 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 10:06:58 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 10:06:58 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 10:06:58 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 10:06:58 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 10:06:58 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 10:06:58 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+Sat Jan 26 10:06:59 CST 2019  [debug] ResourceManager : found msg.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
